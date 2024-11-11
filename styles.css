@@ -1,0 +1,80 @@
+@font-face {
+	font-family: UbuntuBoldItalic;
+	src: url(fonts/Ubuntu-BI.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: RachanaBold;
+	src: url(fonts/Rachana-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: NimbusSans;
+	src: url(fonts/NimbusSans-Regular.ttf) format('truetype');
+}
+
+li {
+	display: inline;
+}
+
+
+.titulo {
+	display: table;
+	margin: auto;
+	height: 8rem;
+}
+
+body {
+	background-color: #d8d8d8;
+}
+
+main {
+	max-width: 60rem;
+	margin: auto;
+	display: flex;
+}
+
+hr {
+	max-width: 60rem;
+	border-top: 3px solid black;
+}
+
+.pito {
+	font-family: NimbusSans;
+	font-size: 1.3rem;
+	text-align: justify;
+}
+
+.stock-ticker {
+	font-size: 1.5rem;
+	padding-block: 6px;
+	border-block: 1px solid;
+	overflow: hidden;
+	user-select: none;
+	display: flex;
+	gap: 2rem;
+}
+
+.stock-ticker ul {
+	list-style: none;
+	flex-shrink: 0;
+	min-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+	background-color: yellow;
+
+	animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+	to {
+		transform: translateX(calc(-100% - 20px));
+	}
+}
+
+footer {
+	max-width: 60 rem;
+	display: inline-block;
+	margin: auto;
+}
