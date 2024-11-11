@@ -1,0 +1,2 @@
+# emi-blog
+blog personal
