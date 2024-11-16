@@ -49,6 +49,7 @@ main {
 
 .presentacion {
 	display: inline;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 1.5rem;
 	font-style: normal;
 	text-align: justify;
@@ -60,6 +61,7 @@ mark {
 
 .stock-ticker {
 	font-size: 1.5rem;
+	font-family: "Times New Roman", Times, serif;
 	padding-block: 6px;
 	border-block: 3px solid black;
 	overflow: hidden;
