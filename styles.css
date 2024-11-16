@@ -13,6 +13,11 @@
 	src: url(fonts/NimbusSans-Regular.ttf) format('truetype');
 }
 
+@font-face {
+	font-family: Reforma1918Blanca;
+	src: url(fonts/Reforma1918-Blanca.woff);
+}
+
 li {
 	display: inline;
 }
@@ -21,7 +26,7 @@ li {
 .titulo {
 	display: table;
 	margin: auto;
-	height: 6rem;
+	height: 8rem;
 }
 
 body {
@@ -31,24 +36,32 @@ body {
 main {
 	max-width: 60rem;
 	margin: auto;
-	display: flex;
+	display: block;
 }
 
-hr {
-	max-width: 60rem;
-	border-top: 3px solid black;
-}
 
-.pito {
+.hola {
 	font-family: NimbusSans;
-	font-size: 1.3rem;
+	font-size: 1.7rem;
 	text-align: justify;
+	color: #010050;
+}
+
+.presentacion {
+	display: inline;
+	font-size: 1.5rem;
+	font-style: normal;
+	text-align: justify;
+}
+
+mark {
+	background-color: yellow;
 }
 
 .stock-ticker {
 	font-size: 1.5rem;
 	padding-block: 6px;
-	border-block: 1px solid;
+	border-block: 3px solid black;
 	overflow: hidden;
 	user-select: none;
 	display: flex;
